@@ -1,0 +1,27 @@
+/* Header nav */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #fdfdfd;
+
+    width: 80%;
+}
+
+.nav__logo {
+    width: 80px;
+    height: 20px;
+}
+
+.nav__links {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #111827;
+}
