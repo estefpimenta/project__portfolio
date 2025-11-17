@@ -2,22 +2,56 @@
 
 .projects {
 
+    display: flex;
+    flex-direction: column;
+
 }
 
 .projects__title {
-
+    font-family: "Poppins", sans-serif;
+    font-weight: medium;
+    font-size: 64px;
 }
 
 .projects__cards {
-
+    display: flex;
 }
 
 .projects__card {
 
+    display: flex;
+    flex-direction: column;
+    
+
 }
 
-.projects__buttons {
+
+
+.project__card-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.project__card-bg {
+
+}
+
+.project__card-image {
+
+}
+
+.project__card-techs {
+    display: flex;
+}
+
+.tehc {
     
+}
+
+
+.projects__buttons {
+
 }
 
 
