@@ -4,24 +4,35 @@
 
     display: flex;
     flex-direction: column;
+    padding: 50px;
+}
 
+.project__card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.projects__cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
 }
 
 .projects__title {
     font-family: "Poppins", sans-serif;
     font-weight: medium;
-    font-size: 64px;
+    font-size: 60px;
+
+    justify-content: left;
 }
 
-.projects__cards {
-    display: flex;
-}
 
 .projects__card {
 
     display: flex;
     flex-direction: column;
-    
+    gap: 15px;
 
 }
 
@@ -30,28 +41,66 @@
 .project__card-title {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 24px;
 }
 
 .project__card-bg {
-
+    background: linear-gradient(140deg,rgba(253, 136, 206, 1) 0%, rgba(251, 217, 105, 1) 100%);
+    max-width: 300px;
+    height: 280px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .project__card-image {
+
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    object-fit: cover;
 
 }
 
 .project__card-techs {
     display: flex;
+    gap: 5px;
+    justify-content: space-around;
+    margin-top: 8px;
 }
 
 .tehc {
+
+    background-color: #111827;
+    color: #fdfdfd;
+    border: none;
+    border-radius: 30px;
+    padding: 8px 15px;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 12px;
+    font-weight: medium;
     
+
 }
 
 
 .projects__buttons {
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    margin-top: 20px;
+}
 
+.projects__button--left, .projects__button--right {
+    background-color: #111827;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color: #fdfdfd;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 
