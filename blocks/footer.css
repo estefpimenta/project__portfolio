@@ -1,0 +1,46 @@
+
+.footer {
+
+    width: 100%;
+    padding: 16px 0px;
+    
+
+    background: #111827;    
+    
+}
+
+.footer__content {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+}
+
+.footer__link {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer__email {
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer__copy {
+    color: #fff;
+    font-size: 12px;
+}
+
+.link__img {
+    width: 18px;
+    margin-right: 10px;
+}
