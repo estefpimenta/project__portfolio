@@ -30,9 +30,17 @@
     text-decoration: none;
 }
 
+.footer__link:hover {
+    color: #FD88CE;
+}
+
 .footer__email {
     color: #fff;
     font-size: 14px;
+}
+
+.footer__email:hover {
+    color: #FD88CE;
 }
 
 .footer__copy {
@@ -43,4 +51,17 @@
 .link__img {
     width: 18px;
     margin-right: 10px;
+
+    opacity: 0.9;
+}
+
+
+.footer__link:hover .link__img {
+    opacity: 1;
+    filter: drop-shadow(0 0 4px #FD88CE);
+}
+
+.footer__email:hover .link__img {
+    opacity: 1;
+    filter: drop-shadow(0 0 4px #FD88CE);
 }
