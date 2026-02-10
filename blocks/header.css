@@ -18,8 +18,22 @@
 }
 
 .header__card {
-    background: #FD88CE;
-    background: linear-gradient(140deg,rgba(253, 136, 206, 1) 0%, rgba(251, 217, 105, 1) 100%);
+    /* background: #FD88CE;
+    background: linear-gradient(140deg,rgba(253, 136, 206, 1) 0%, rgba(251, 217, 105, 1) 100%); */
+
+    background: linear-gradient(
+        120deg,
+        #fd88ce,
+        #fbd969,
+        #a78bfa,
+        #fd88ce
+    );
+    background-size: 300% 300%;
+    animation: liquidGradient 16s ease-in-out infinite;
+
+    transition: transform 0.6s ease, box-shadow 0.6s ease;
+
+    
     width: 100%;
     height: 450px;
     border-radius: 10px;
@@ -29,7 +43,16 @@
     align-items: center;
     justify-content: center;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+
+    
 }
+
+.header__card:hover {
+    animation-duration: 8s;
+    transform: translateY(-6px) scale(1.01);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
 
 .header__card-introduction {
     font-family: "Nunito", Arial, sans-serif;
@@ -67,4 +90,17 @@
     font-size: 18px;
     font-weight: medium;
     cursor: pointer;
+}
+
+
+@keyframes liquidGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
