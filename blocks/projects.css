@@ -19,7 +19,7 @@
     margin-bottom: 80px;
 }
 
-.projects__cards {
+.projects__cards_line {
     display: flex;
     gap: 30px;
     justify-content: space-around;
