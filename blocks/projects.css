@@ -99,10 +99,11 @@
 
 .project__card-techs {
     display: flex;
-    gap: 5px;
-    justify-content: space-between;
+    gap: 8px;
+    justify-content: center;
     align-items: center;
-    
+    flex-wrap: wrap;
+
 }
 
 .tehc {
@@ -111,12 +112,27 @@
     color: #fdfdfd;
     border: none;
     border-radius: 30px;
-    padding: 8px 15px;
+    padding: 10px;
     font-family: "Poppins", Arial, sans-serif;
     font-size: 12px;
     font-weight: medium;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 42px;
+    height: 42px;
+    transition: all 0.3s ease;
+    position: relative;
 
+}
+
+.tehc i {
+    font-size: 20px;
+}
+
+.tehc:hover {
+    background-color: #4B5563;
+    transform: scale(1.1);
 }
 
 
