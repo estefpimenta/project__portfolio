@@ -104,3 +104,102 @@
         background-position: 0% 50%;
     }
 }
+
+/* Responsividade - Header */
+@media (max-width: 1024px) {
+    .header {
+        min-height: 640px;
+        max-height: none;
+        height: auto;
+        padding-top: 40px;
+    }
+
+    .header__card {
+        height: auto;
+        max-width: 860px;
+        margin: 0 16px;
+        padding: 32px;
+    }
+
+    .header__card-introduction {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .header__card-description {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .buttons {
+        gap: 20px;
+    }
+
+    .button__contact, .button__resume {
+        padding: 14px 28px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding-top: 30px;
+    }
+
+    .header__card {
+        max-width: 100%;
+        width: 100%;
+        padding: 28px 18px;
+    }
+
+    .header__card-introduction {
+        font-size: 26px;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .header__card-description {
+        font-size: 24px;
+        line-height: 34px;
+        text-align: center;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        width: 100%;
+    }
+
+    .button__contact, .button__resume {
+        width: min(100%, 280px);
+        padding: 12px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding-top: 24px;
+    }
+
+    .header__card {
+        padding: 20px 14px;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .header__card-introduction {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .header__card-description {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .button__contact, .button__resume {
+        width: 100%;
+        font-size: 15px;
+    }
+}
+
