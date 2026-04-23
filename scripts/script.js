@@ -4,5 +4,8 @@
 window.addEventListener('load', () => {
     const videoHeader = document.querySelector('.header__card-video');
     videoHeader.src = './images/video/flowV2.mp4';
+    videoHeader.autoplay = true;
+    videoHeader.loop = true;
+    videoHeader.muted = true;
 })
 
