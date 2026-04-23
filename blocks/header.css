@@ -13,8 +13,9 @@
     gap: 20px;
     padding-top: 50px;
 
-    max-width: 1200px;
-    margin: 0 auto;
+    /* max-width: 1200px; */
+    width: 100%;
+    /* margin: 0 auto; */
 }
 
 .header__card {
@@ -32,12 +33,11 @@
     background-size: 300% 300%;
     animation: liquidGradient 16s ease-in-out infinite; */
 
-    transition: transform 0.6s ease, box-shadow 0.6s ease;
 
     
     width: 100%;
     height: 450px;
-    border-radius: 10px;
+
 
     display: flex;
     flex-direction: column;
@@ -74,13 +74,6 @@
 
 
 
-.header__card:hover {
-    animation-duration: 8s;
-    transform: translateY(-6px) scale(1.01);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
-}
-
-
 .header__card-introduction {
     font-family: "Nunito", Arial, sans-serif;
     font-size: 32px;
@@ -107,6 +100,8 @@
     z-index: 2;
 }
 
+
+
 a {
     text-decoration: none;
 }
@@ -114,6 +109,7 @@ a {
 a button {
     display: flex;
     align-items: center;
+
 }
 
 .button__contact, .button__resume {
@@ -127,6 +123,15 @@ a button {
     font-weight: medium;
     cursor: pointer;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+
+    transition: transform 0.5s ease, box-shadow 0.3s ease;
+
+}
+
+.button__contact:hover, .button__resume:hover {
+    animation-duration: 8s;
+    transform: translateY(-3px) scale(1.01);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15)
 }
 
 .button__contact img, .button__resume img {
