@@ -52,7 +52,7 @@
 }
 
 .footer__link {
-    color: #fff;
+    color: #111827;
     font-size: 14px;
     text-decoration: none;
 }
@@ -62,7 +62,7 @@
 }
 
 .footer__email {
-    color: #fff;
+    color: #111827;
     font-size: 14px;
 }
 
@@ -71,7 +71,7 @@
 }
 
 .footer__copy {
-    color: #fff;
+    color: #111827;
     font-size: 12px;
     z-index: 2;
 }
