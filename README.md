@@ -1,4 +1,4 @@
-# Projeto 5: Portfolio
+# Projeto Portfolio
 Página web que mostra os projetos feitos, cv e publicações pessoais
 
 ## Link para o GitHub Pages
